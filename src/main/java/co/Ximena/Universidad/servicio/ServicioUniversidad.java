@@ -32,7 +32,6 @@ public class ServicioUniversidad implements OperacionesUniversidad {
     @Override
     public Universidad consultarPk(int pk) {
         Universidad universidad =repositorioUniversidad.findById(pk).orElse(null);
-
         return null;
     }
 }
